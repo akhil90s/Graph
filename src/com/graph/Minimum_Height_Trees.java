@@ -23,8 +23,9 @@ public class Minimum_Height_Trees {
 		Map<Integer, Integer> incomingDegree = new HashMap<>();
 		Queue<Integer> sourceQueue = new LinkedList<>();
 		List<Integer> topologicalSortList = new ArrayList<>();
-		if (n <= 0)
+		if (n <= 0) {
 			return topologicalSortList;
+		}
 		if (n == 1) {
 			topologicalSortList.add(0);
 			return topologicalSortList;

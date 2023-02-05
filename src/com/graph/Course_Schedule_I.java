@@ -13,8 +13,10 @@ public class Course_Schedule_I {
 
 		int numCourses = 4;
 		int[][] prerequisites = new int[][] { { 1, 0 }, { 2, 1 }, { 3, 2 } };
+		
 //		int numCourses = 5;
 //		int[][] prerequisites = new int[][] { { 1, 2 }, { 4, 3 }, { 2, 4 }, { 4, 1 } };
+		
 		boolean result = canFinish(numCourses, prerequisites);
 		System.out.println(result);
 

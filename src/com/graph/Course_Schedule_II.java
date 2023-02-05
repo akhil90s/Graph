@@ -13,9 +13,11 @@ public class Course_Schedule_II {
 
 		int numCourses = 4;
 		int[][] prerequisites = new int[][] { { 1, 0 }, { 2, 0 }, { 3, 1 }, { 3, 2 } };
+		
 //		int numCourses = 5;
 //		int[][] prerequisites = new int[][] { { 1, 2 }, { 4, 3 }, { 2, 4 }, { 4, 1 } };
 		int[] result = findOrder(numCourses, prerequisites);
+		
 		System.out.println(result);
 
 	}
